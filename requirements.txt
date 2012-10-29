@@ -1,0 +1,4 @@
+pyvows
+mock
+fabric
+nose
