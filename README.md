@@ -19,7 +19,7 @@ Using it is as simple as:
 
     from fabplugins.healthcheck import do_healthcheck
 
-    do_heathcheck('http://globo.com')
+    do_healthcheck('http://globo.com')
 
 License
 -------
