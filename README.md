@@ -1,0 +1,4 @@
+fabplugins
+==========
+
+Python fabric plugins
