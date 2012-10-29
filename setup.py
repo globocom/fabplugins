@@ -15,7 +15,7 @@ setup(
     author='Time Home',
     author_email='timehome@corp.globo.com',
     url='',
-    license='Proprietary',
+    license='MIT',
     classifiers=[],
     packages=['fabplugins'],
     include_package_data=True,

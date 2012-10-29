@@ -1,31 +1,3 @@
-fabplugins
-========
-
-[![Build Status](https://secure.travis-ci.org/globocom/fabplugins.png?branch=master)](http://travis-ci.org/globocom/fabplugins)
-
-Fabric plugins
-
-Intalling
----------
-
-Installing fabplugins is as easy as:
-
-    pip install fabplugins
-
-Usage
------
-
-Using it is as simple as:
-
-    from fabplugins.healthcheck import do_healthcheck
-
-    do_heathcheck('http://globo.com')
-
-License
--------
-
-fabplugins is licensed under the MIT License:
-
 The MIT License
 
 Copyright (c) 2012 globo.com timehome@corp.globo.com
