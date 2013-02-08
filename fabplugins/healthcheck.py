@@ -12,7 +12,7 @@ def do_healthcheck(host, uri='healthcheck', body='WORKING'):
 
     with settings(warn_only=True):
         print 'Waiting for server (%s)' % host
-        while not run('curl %s/%s' % (host, uri)) == body:
+        while not run('curl -L %s/%s' % (host, uri)) == body:
             print '. (sleeping %d)' % sleeping_time
             time.sleep(sleeping_time)
             sleeping_time = sleeping_time * 2
